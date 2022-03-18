@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/digestPhoneBookFragment">
+
+    <fragment
+        android:id="@+id/digestFragment"
+        android:name="com.raisehumaneness.digest.ui.digest.DigestFragment"
+        android:label="DigestFragment" />
+    <fragment
+        android:id="@+id/digestListFragment"
+        android:name="com.raisehumaneness.digest.ui.digest.DigestListFragment"
+        android:label="DigestListFragment" />
+    <fragment
+        android:id="@+id/digestMessageFragment"
+        android:name="com.raisehumaneness.digest.ui.digest.DigestMessageFragment"
+        android:label="DigestMessageFragment" />
+    <fragment
+        android:id="@+id/digestPhoneBookFragment"
+        android:name="com.raisehumaneness.digest.ui.digest.DigestPhoneBookFragment"
+        android:label="DigestPhoneBookFragment" />
+    <dialog
+        android:id="@+id/phoneDialog"
+        android:name="com.raisehumaneness.digest.ui.dialogs.PhoneDialog"
+        android:label="PhoneDialog" />
+</navigation>

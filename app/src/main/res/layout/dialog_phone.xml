@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:grid="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="@string/phone_dialog_title_1"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        grid:cardElevation="0dp"
+        grid:cardCornerRadius="10dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#ECECEC">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/phone_1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/call_1"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                grid:iconSize="16dp"
+                grid:cornerRadius="10dp"
+                android:backgroundTint="#669FD8"
+                grid:iconTint="@color/white"
+                android:visibility="gone"
+                grid:icon="@drawable/ic_phone_call"/>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="@string/phone_dialog_title_2"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        grid:cardElevation="0dp"
+        grid:cardCornerRadius="10dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#ECECEC">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/phone_2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/call_2"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                grid:iconSize="16dp"
+                android:backgroundTint="#669FD8"
+                grid:iconTint="@color/white"
+                grid:cornerRadius="10dp"
+                android:visibility="gone"
+                grid:icon="@drawable/ic_phone_call"/>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="@string/phone_dialog_title_3"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        grid:cardElevation="0dp"
+        grid:cardCornerRadius="10dp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#ECECEC">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/phone_3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/call_3"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                grid:iconSize="16dp"
+                android:backgroundTint="#669FD8"
+                grid:iconTint="@color/white"
+                grid:cornerRadius="10dp"
+                android:visibility="gone"
+                grid:icon="@drawable/ic_phone_call"/>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="@string/phone_dialog_title_4"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        grid:cardElevation="0dp"
+        grid:cardCornerRadius="10dp"
+        android:backgroundTint="#ECECEC">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/phone_4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/call_4"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                grid:iconSize="16dp"
+                grid:cornerRadius="10dp"
+                android:backgroundTint="#669FD8"
+                grid:iconTint="@color/white"
+                android:visibility="gone"
+                grid:icon="@drawable/ic_phone_call"/>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
