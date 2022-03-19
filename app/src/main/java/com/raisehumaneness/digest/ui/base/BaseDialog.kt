@@ -6,10 +6,13 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.viewbinding.ViewBinding
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
+import com.raisehumaneness.digest.Application
 
 abstract class BaseDialog<B : ViewBinding> : BottomSheetDialogFragment() {
     private var _viewBinding: B? = null
     protected val binding get() = checkNotNull(_viewBinding)
+
+    protected val sharedPrefs get() = Application.prefs
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

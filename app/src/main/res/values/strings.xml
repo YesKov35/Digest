@@ -1,132 +1,137 @@
 <resources>
     <string name="app_name" translatable="false">Digest</string>
 
-    <string name="digest_title_1">Что взять с собой в автомобиль при эвакуации</string>
-    <string name="digest_title_2">Что взять с собой в автомобиль во время эвакуации</string>
-    <string name="digest_title_3">Что делать после обвала дома</string>
+    <string name="digest_title_1">What should be in the alarm suitcase</string>
+    <string name="digest_title_2">What to take with you in the car at the time of evacuation</string>
+    <string name="digest_title_3">What to do after a house collapse</string>
+
+    <string name="search">Searching…</string>
+    <string name="phone_dialog_title_1">SOS (single):</string>
+    <string name="phone_dialog_title_2">Fire Department:</string>
+    <string name="phone_dialog_title_3">Police (militia in some countries):</string>
+    <string name="phone_dialog_title_4">Ambulance:</string>
+    <string name="add_country_phone_book">+ Add Emergency Phones</string>
+    <string name="dialog_phone_btn">Add to Home Screen</string>
+    <string name="change_country">Change country</string>
+    <string name="digest_title">Useful Articles</string>
+    <string name="digest_phone_title">Emergency numbers</string>
 
     <string-array name="digest_desc_1">
-        <item>Копии важных документов в непромокаемой упаковке. Заранее сделайте копии паспортов, автомобильных прав, документов, доказывающих ваши права на недвижимость, машину и т. д. Документы уложить нужно так, чтобы их легко можно было достать. Желательно положить с документами фотографии родных и близких.</item>
-        <item>Кредитные карты и наличные деньги. У вас всегда должен быть запас денег.</item>
-        <item>Дубликаты ключей от дома и автомобиля.</item>
-        <item>Карта местности и доведенный до ведома всех членов семьи способ экстренной связи и место встречи.</item>
-        <item>Устройства связи и доступа к информации. Можно взять недорогой мобильный телефон с зарядным устройством.</item>
-        <item>Фонарик, а лучше несколько, с запасными батарейками и лампочками к нему. Компас и часы, желательно водонепроницаемые.</item>
-        <item>Мультитул – многофункциональный инструмент. Обычно он выглядит как складные пассатижи, в ручках которых спрятаны дополнительные инструменты (нож, шило, пила, отвертка, ножницы и многое другое).</item>
-        <item>Нож и топорик.</item>
-        <item>Сигнальные средства (свисток, фальшфейер).</item>
-        <item>Пакеты для мусора емкостью 120 л (примерно пять штук). Они могут заменить тент, если разрезать.</item>
-        <item>Рулон широкого скотча.</item>
-        <item>Упаковка презервативов (12 штук без коробки, без смазки и ароматизаторов). Пригодиться может во многих ситуациях.</item>
-        <item>Шнур синтетический диаметром 4–5 мм и длиной 20 м.</item>
-        <item>Блокнот и карандаш.</item>
-        <item>Нитки и иголки.</item>
-        <item>Аптечка. Количество лекарств следует рассчитать на оказание помощи не только себе, но и окружающим: бинты, лейкопластырь, йод, вата, активированный уголь, жаропонижающие, препараты против аллергии, диареи и кишечной инфекции, глазные капли, антибиотики в порошке.</item>
-        <item>Принимаемые вами на постоянной основе лекарства на неделю с указанием дозировки и способа применения. Имена и телефоны ваших докторов. Следите за сроком годности лекарств (при упаковке забейте в календарь дату ревизии препаратов).</item>
-        <item>Одежда. Два комплекта нижнего белья. Две пары хлопчатобумажных носков. Запасные штаны, рубашка или кофта, плащ-дождевик, вязаная шапочка, рукавицы, шарф. Надежная и удобная обувь.</item>
-        <item>Мини-палатка, спальник.</item>
-        <item>Гигиенические средства: зубная щетка и паста, небольшой кусок мыла, полотенце (можно прессованные), туалетная бумага, несколько упаковок сухих платков, несколько обычных носовых платков, влажные салфетки. Женщинам – средства личной гигиены. Можно взять бритву и маникюрный набор.</item>
-        <item>Принадлежности для детей.</item>
-        <item>Посуда: казанок, фляга, ложка, кружка (лучше металлическая 0,5 л), раскладной стаканчик.</item>
-        <item>Спички, зажигалка.</item>
-        <item>Запас еды на несколько дней. Все, что можно есть без приготовления и что занимает мало места, долго хранится. Питьевая вода на 1–2 дня, которую нужно периодически обновлять. Высококалорийные сладости, например шоколадные батончики и горсть леденцов.</item>
-        <item>Из продуктов: две банки хорошей тушенки, галеты, суповые пакеты, мясные или рыбные консервы, любые крупы, макароны, сухие овощные полуфабрикаты.</item>
-        <item>Водка или медицинский спирт.</item>
-        <item>Семейные ценности и реликвии, но только после самого необходимого.</item>
+        <item>Copies of important documents in waterproof packaging. Make copies of passports, driving licenses, documents proving your rights to real estate, car, etc. in advance. Documents must be laid in such a way that they can be easily obtained. It is advisable to put photos of relatives and friends with documents.</item>
+        <item>Credit cards and cash. You should always have a supply of money.</item>
+        <item>Duplicate house and car keys.</item>
+        <item>Map of area and communicated to all family members for emergency contact and meeting point.</item>
+        <item>Communication and information access devices. You can take an inexpensive mobile phone with a charger.</item>
+        <item>A flashlight, or rather a few, with spare batteries and bulbs for it. Compass and watch, preferably waterproof.</item>
+        <item>Multitool is a multifunctional tool. Usually it looks like folding pliers, in the handles of which additional tools are hidden (knife, awl, saw, screwdriver, scissors and much more).</item>
+        <item>Knife and hatchet.</item>
+        <item>Signal means (whistle, flare).</item>
+        <item>120L garbage bags (approximately five pieces). They can replace the awning if cut.</item>
+        <item>A roll of wide tape.</item>
+        <item>Pack of 12 condoms without box, no lube or fragrance. It can come in handy in many situations.</item>
+        <item>Synthetic cord with a diameter of 4–5 mm and a length of 20 m.</item>
+        <item>Notepad and pencil.</item>
+        <item>Thread and needles.</item>
+        <item>First aid kit. The number of medicines should be calculated to help not only yourself, but also those around you: bandages, adhesive plaster, iodine, cotton wool, activated charcoal, antipyretics, drugs against allergies, diarrhea and intestinal infections, eye drops, antibiotics in powder.</item>
+        <item>Medications you take on a regular basis for a week, including dosage and how to use it. Names and phone numbers of your doctors. Keep track of the expiration date of the medicines (when packing, enter the revision date of the medicines into the calendar).</item>
+        <item>Clothes. Two sets of underwear. Two pairs of cotton socks. Spare pants, shirt or jacket, raincoat, knitted hat, mittens, scarf. Reliable and comfortable shoes.</item>
+        <item>Mini tent, sleeping bag</item>
+        <item>Hygiene supplies: toothbrush and paste, a small bar of soap, a towel (can be pressed), toilet paper, several packs of dry handkerchiefs, several regular handkerchiefs, wet wipes. Women - personal hygiene products. You can take a razor and a manicure set.</item>
+        <item>Baby supplies</item>
+        <item>Dishes: a cauldron, a flask, a spoon, a mug (preferably metal 0.5 l), a folding cup.</item>
+        <item>Matches, lighter.</item>
+        <item>Storage of food for several days. Everything that can be eaten without cooking and that takes up little space is stored for a long time. Drinking water for 1–2 days, which needs to be updated periodically. High-calorie sweets, such as chocolate bars and a handful of hard candy.</item>
+        <item>From the products: two cans of good stew, biscuits, soup bags, canned meat or fish, any cereals, pasta, dry ready-to-cook vegetables.</item>
+        <item>Vodka or rubbing alcohol.</item>
+        <item>Family heirlooms and heirlooms, but only after the essentials.</item>
     </string-array>
 
     <string-array name="digest_desc_2">
-        <item>Одеяло, спальник (на каждого) или каремат.</item>
-        <item>Аптечка.</item>
-        <item>Воду из расчета 1–3 литра на человека.</item>
-        <item>Зарядки для телефонов, включая повербанки и питание от розеток автомобиля.</item>
-        <item>Домкрат, набор ключей, огнетушитель, крокодилы для зарядки аккумулятора, перчатки, знак аварийной остановки, светоотражающий жилет.</item>
-        <item>Горючее в металлической канистре.</item>
-        <item>Запасное колесо.</item>
-        <item>Туристическую лопату.</item>
-        <item>Запас антифриза, смазки для двигателя, тормозной жидкости.</item>
-        <item>Буксировочный трос.</item>
-        <item>Автомобильный компрессор.</item>
+        <item>Blanket, sleeping bag (for each) or mat.</item>
+        <item>First aid kit.</item>
+        <item>Water at the rate of 1–3 liters per person.</item>
+        <item>Chargers for phones, including power banks and car power.</item>
+        <item>Jack, wrench set, fire extinguisher, battery charging alligators, gloves, warning triangle, reflective vest.</item>
+        <item>Fuel in a metal canister.</item>
+        <item>Spare tire.</item>
+        <item>Tourist shovel.</item>
+        <item>Stock of antifreeze, engine lubricant, brake fluid.</item>
+        <item>Tow rope.</item>
+        <item>Car compressor</item>
     </string-array>
 
     <string name="digest_desc_3">
-        1. Попытайтесь высвободить руки и ноги.\n\n
+         1. Try to free your arms and legs.\n\n
 
-        2. Оцените окружающую ситуацию.\n\n
+         2. Assess your surroundings.\n\n
 
-        3. Аккуратно разберите завал, не трогайте то, на чем все держится.\n\n
+         3. Carefully disassemble the blockage, do not touch what everything rests on.\n\n
 
-        4. Если не уверены в своих силах – зовите на помощь.\n\n
+         4. If you are not confident in your abilities - call for help.\n\n
 
-        5. Если есть возможность – позвоните по телефону, стучите по трубам.\n\n
+         5. If possible, call the phone, knock on the pipes.\n\n
 
-        6. По возможности окажите первую медицинскую помощь.\n\n
+         6. If possible, provide first aid.\n\n
 
-        7. Попробуйте чем-нибудь укрыться, чтобы не терять тепло и дождаться помощи.\n\n
-    </string>
-
-    <string name="search">Поиск…</string>
-    <string name="phone_dialog_title_1">SOS (единый):</string>
-    <string name="phone_dialog_title_2">Пожарная служба:</string>
-    <string name="phone_dialog_title_3">Полиция (в некоторых странах — милиция):</string>
-    <string name="phone_dialog_title_4">Скорая помощь:</string>
+         7. Try to cover yourself with something so as not to lose heat and wait for help.\n\n
+     </string>
 
     <string-array name="country_names">
-        <item>	Австрия	</item>
-        <item>	Албания	</item>
-        <item>	Андорра	</item>
-        <item>	Австралия	</item>
-        <item>	Азербайджан	</item>
-        <item>	Аргентина	</item>
-        <item>	Армения	</item>
-        <item>	Афганистан	</item>
-        <item>	Белоруссия	</item>
-        <item>	Бельгия	</item>
-        <item>	Болгария	</item>
-        <item>	Босния и Герцеговина	</item>
-        <item>	Бразилия	</item>
-        <item>	Великобритания	</item>
-        <item>	Венгрия	</item>
-        <item>	Венесуэла	</item>
-        <item>	Германия	</item>
-        <item>	Грузия	</item>
-        <item>	Евросоюз	</item>
-        <item>	Израиль	</item>
-        <item>	Иран	</item>
-        <item>	Казахстан	</item>
-        <item>	"Канада
- США"	</item>
-        <item>	Киргизия	</item>
-        <item>	КНР	</item>
-        <item>	КНДР	</item>
-        <item>	Корея	</item>
-        <item>	Латвия	</item>
-        <item>	Литва	</item>
-        <item>	Македония	</item>
-        <item>	Молдавия	</item>
-        <item>	Монголия	</item>
-        <item>	Польша	</item>
-        <item>	Приднестровская Молдавская Республика	</item>
-        <item>	Россия	</item>
-        <item>	Румыния	</item>
-        <item>	Сербия	</item>
-        <item>	Сингапур	</item>
-        <item>	Словакия	</item>
-        <item>	Словения	</item>
-        <item>	Таджикистан	</item>
-        <item>	Туркмения	</item>
-        <item>	Турция	</item>
-        <item>	Узбекистан	</item>
-        <item>	Украина	</item>
-        <item>	Финляндия	</item>
-        <item>	Франция	</item>
-        <item>	Хорватия	</item>
-        <item>	Чехия	</item>
-        <item>	Черногория	</item>
-        <item>	Швейцария	</item>
-        <item>	Швеция	</item>
-        <item>	Эстония	</item>
-        <item>	Япония	</item>
+        <item> Austria </item>
+        <item> Albania </item>
+        <item> Andorra </item>
+        <item> Australia </item>
+        <item> Azerbaijan </item>
+        <item> Argentina </item>
+        <item> Armenia </item>
+        <item> Afghanistan </item>
+        <item> Belarus </item>
+        <item> Belgium </item>
+        <item> Bulgaria </item>
+        <item> Bosnia and Herzegovina </item>
+        <item> Brazil </item>
+        <item> United Kingdom </item>
+        <item> Hungary </item>
+        <item> Venezuela </item>
+        <item> Germany </item>
+        <item> Georgia </item>
+        <item> European Union </item>
+        <item> Israel </item>
+        <item> Iran </item>
+        <item>Kazakhstan</item>
+        <item> "Canada
+ USA" </item>
+        <item> Kyrgyzstan </item>
+        <item> China </item>
+        <item> DPRK </item>
+        <item> Korea </item>
+        <item> Latvia </item>
+        <item> Lithuania </item>
+        <item> Macedonia </item>
+        <item> Moldova </item>
+        <item> Mongolia </item>
+        <item> Poland </item>
+        <item> Pridnestrovian Moldavian Republic </item>
+        <item>Russia</item>
+        <item> Romania </item>
+        <item> Serbia </item>
+        <item> Singapore </item>
+        <item> Slovakia </item>
+        <item> Slovenia </item>
+        <item> Tajikistan </item>
+        <item> Turkmenistan </item>
+        <item> Turkey </item>
+        <item>Uzbekistan</item>
+        <item>Ukraine</item>
+        <item> Finland </item>
+        <item> France </item>
+        <item> Croatia </item>
+        <item> Czech Republic </item>
+        <item> Montenegro </item>
+        <item> Switzerland </item>
+        <item> Sweden </item>
+        <item> Estonia </item>
+        <item> Japan </item>
     </string-array>
 
     <string-array name="country_phones">

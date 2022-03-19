@@ -3,6 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/nik35/Documents/MyRemoteProjects/Digest/app/src/main/res/drawable/gradient1.xml" value="0.182" />
+        <entry key="..\:/Users/nik35/Documents/MyRemoteProjects/Digest/app/src/main/res/drawable/ic_search.xml" value="0.2315" />
+        <entry key="..\:/Users/nik35/Documents/MyRemoteProjects/Digest/app/src/main/res/layout/activity_main.xml" value="0.8925" />
+        <entry key="..\:/Users/nik35/Documents/MyRemoteProjects/Digest/app/src/main/res/layout/dialog_phone.xml" value="0.9065217391304348" />
+        <entry key="..\:/Users/nik35/Documents/MyRemoteProjects/Digest/app/src/main/res/layout/fragment_digest.xml" value="0.8925" />
+        <entry key="..\:/Users/nik35/Documents/MyRemoteProjects/Digest/app/src/main/res/layout/fragment_digest_list.xml" value="0.8925" />
+        <entry key="..\:/Users/nik35/Documents/MyRemoteProjects/Digest/app/src/main/res/layout/fragment_digest_message.xml" value="0.8925" />
+        <entry key="..\:/Users/nik35/Documents/MyRemoteProjects/Digest/app/src/main/res/layout/fragment_digest_phone_book.xml" value="0.8925" />
+        <entry key="..\:/Users/nik35/Documents/MyRemoteProjects/Digest/app/src/main/res/layout/fragment_main.xml" value="0.615" />
+        <entry key="..\:/Users/nik35/Documents/MyRemoteProjects/Digest/app/src/main/res/layout/item_digest.xml" value="0.46125" />
+        <entry key="..\:/Users/nik35/Documents/MyRemoteProjects/Digest/app/src/main/res/layout/item_digest_check.xml" value="0.8925" />
         <entry key="..\:/Users/nik35/Documents/my_android_projects/Digest/app/src/main/res/drawable/ic_phone_call.xml" value="0.341" />
         <entry key="..\:/Users/nik35/Documents/my_android_projects/Digest/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/nik35/Documents/my_android_projects/Digest/app/src/main/res/layout/dialog_phone.xml" value="0.5" />

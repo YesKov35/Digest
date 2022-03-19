@@ -1,6 +1,7 @@
 package com.raisehumaneness.digest.data.models
 
 data class PhoneBookModel(
-    var country: String,
-    var numbers: String
+    val country: String,
+    val numbers: String,
+    val position: Int
 )

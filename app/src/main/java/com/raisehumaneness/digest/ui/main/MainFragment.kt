@@ -1,47 +1,52 @@
-package com.raisehumaneness.digest.ui.dialogs
+package com.raisehumaneness.digest.ui.main
 
+import android.Manifest
 import android.content.Intent
+import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.text.isDigitsOnly
-import com.raisehumaneness.digest.databinding.DialogPhoneBinding
-import com.raisehumaneness.digest.ui.base.BaseDialog
-import com.raisehumaneness.digest.utils.Constants
-import java.util.regex.Matcher
-import java.util.regex.Pattern
-import android.Manifest
-import android.content.pm.PackageManager
-import android.widget.Button
-import android.widget.EditText
-import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.app.ActivityCompat
 import androidx.navigation.fragment.findNavController
+
 import com.raisehumaneness.digest.R
+import com.raisehumaneness.digest.data.models.PhoneBookModel
+import com.raisehumaneness.digest.data.repository.CountryRepository
+import com.raisehumaneness.digest.databinding.FragmentMainBinding
+import com.raisehumaneness.digest.ui.base.BaseFragment
+import com.raisehumaneness.digest.utils.Constants
 import com.raisehumaneness.digest.utils.Constants.requestCall
 
-class PhoneDialog : BaseDialog<DialogPhoneBinding>(){
+class MainFragment : BaseFragment<FragmentMainBinding>(){
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         setListeners()
         //setupObservers()
-
         setData()
     }
 
-    override fun initBinding(inflater: LayoutInflater, container: ViewGroup?): DialogPhoneBinding =
-        DialogPhoneBinding.inflate(layoutInflater)
+    override fun initBinding(inflater: LayoutInflater, container: ViewGroup?): FragmentMainBinding =
+        FragmentMainBinding.inflate(layoutInflater)
 
     private fun setListeners(){
-        binding.addCountry.setOnClickListener {
-            sharedPrefs?.setCountry(arguments?.getInt(Constants.BUNDLE_COUNTRY_POS) ?: -1)
-            findNavController().popBackStack(R.id.mainFragment, false)
+        binding.run {
+            navCountry.setOnClickListener {
+                findNavController().navigate(R.id.digestPhoneBookFragment)
+            }
+
+            digestPhoneBook.setOnClickListener {
+                findNavController().navigate(R.id.digestPhoneBookFragment)
+            }
+
+            digestMain.setOnClickListener {
+                findNavController().navigate(R.id.digestListFragment)
+            }
         }
     }
 
@@ -49,12 +54,27 @@ class PhoneDialog : BaseDialog<DialogPhoneBinding>(){
     }
 
     private fun setData(){
-        binding.textCountry.text = arguments?.getString(Constants.BUNDLE_COUNTRY_NAME)
+        val pos = sharedPrefs.getCountry()
 
-        val phones = arguments?.getString(Constants.BUNDLE_PHONE_NUMBERS)?.split("#")
+        if(pos >= 0){
+            binding.navCountry.visibility = View.GONE
+            binding.countryView.visibility = View.VISIBLE
+            setCountry(CountryRepository.instance.countryList[pos])
+        }
+    }
+
+    private fun setCountry(country: PhoneBookModel){
+        binding.country.textCountry.text = country.country
+        binding.country.addCountry.setOnClickListener {
+            findNavController().navigate(R.id.digestPhoneBookFragment)
+        }
+
+        binding.country.addCountry.text = getString(R.string.change_country)
+
+        val phones = country.numbers.split("#")
 
         if(!phones.isNullOrEmpty()) {
-            binding.run {
+            binding.country.run {
                 phone1.text = phones[0]
                 phone2.text = phones[1]
                 phone3.text = phones[2]
@@ -98,22 +118,5 @@ class PhoneDialog : BaseDialog<DialogPhoneBinding>(){
                 startActivity(Intent(Intent.ACTION_CALL, Uri.parse(dial)))
             }
         }
-    }
-
-    private fun call(number: String){
-        val intent = Intent(Intent.ACTION_CALL);
-        intent.data = Uri.parse("tel:$number")
-        startActivity(intent)
-    }
-
-    fun getPhones(s: String): ArrayList<String>? {
-        val regex = "[0-9]"
-        val array = ArrayList<String>()
-        val pattern: Pattern = Pattern.compile(regex)
-        val matcher: Matcher = pattern.matcher(s)
-        while (matcher.find()) {
-            array.add(s.substring(matcher.start(), matcher.end()))
-        }
-        return array
     }
 }

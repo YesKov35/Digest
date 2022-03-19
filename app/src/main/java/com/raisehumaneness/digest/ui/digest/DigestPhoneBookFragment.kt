@@ -7,12 +7,9 @@ import android.view.ViewGroup
 import androidx.core.widget.addTextChangedListener
 import androidx.navigation.fragment.findNavController
 import com.raisehumaneness.digest.R
-import com.raisehumaneness.digest.adapters.DigestListAdapter
 import com.raisehumaneness.digest.adapters.DigestPhoneBookAdapter
-import com.raisehumaneness.digest.data.models.DigestModel
 import com.raisehumaneness.digest.data.models.PhoneBookModel
-import com.raisehumaneness.digest.databinding.FragmentDigestListBinding
-import com.raisehumaneness.digest.databinding.FragmentDigestMessageBinding
+import com.raisehumaneness.digest.data.repository.CountryRepository
 import com.raisehumaneness.digest.databinding.FragmentDigestPhoneBookBinding
 import com.raisehumaneness.digest.ui.base.BaseFragment
 import com.raisehumaneness.digest.utils.Constants
@@ -38,7 +35,7 @@ class DigestPhoneBookFragment : BaseFragment<FragmentDigestPhoneBookBinding>(){
             if(!it.isNullOrEmpty()){
                 searchData(it.toString())
             }else{
-                digestPhoneBookAdapter.setData(getData())
+                digestPhoneBookAdapter.setData(CountryRepository.instance.countryList)
             }
         }
     }
@@ -52,29 +49,20 @@ class DigestPhoneBookFragment : BaseFragment<FragmentDigestPhoneBookBinding>(){
                 listener = {
                     val bundle = Bundle()
                     bundle.putString(Constants.BUNDLE_PHONE_NUMBERS, it.numbers)
+                    bundle.putString(Constants.BUNDLE_COUNTRY_NAME, it.country)
+                    bundle.putInt(Constants.BUNDLE_COUNTRY_POS, it.position)
                     findNavController().navigate(R.id.phoneDialog, bundle)
                 }
 
-                setData(getData())
+                setData(CountryRepository.instance.countryList)
             }
 
             listDigest.adapter = digestPhoneBookAdapter
         }
     }
 
-    private fun getData(): List<PhoneBookModel>{
-        val dataResult = emptyList<PhoneBookModel>().toMutableList()
-        val countryNames = resources.getStringArray(R.array.country_names)
-        val phoneBook = resources.getStringArray(R.array.country_phones)
-
-        for(i in countryNames.indices)
-            dataResult += PhoneBookModel(countryNames[i], phoneBook[i])
-
-        return dataResult
-    }
-
     private fun searchData(search: String){
-        val data = getData()
+        val data = CountryRepository.instance.countryList
 
         val dataResult = emptyList<PhoneBookModel>().toMutableList()
         for(item in data)

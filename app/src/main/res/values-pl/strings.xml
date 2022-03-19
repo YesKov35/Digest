@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="digest_title_1">Co powinno być w nagłym przypadku</string>
+    <string name="digest_title_2">Co zabrać ze sobą podczas ewakuacji</string>
+    <string name="digest_title_3">Co zrobić po zawaleniu się domu</string>
+
+    <string name="search">Wyszukiwanie…</string>
+    <string name="phone_dialog_title_1">SOS (pojedynczy):</string>
+    <string name="phone_dialog_title_2">Straż pożarna:</string>
+    <string name="phone_dialog_title_3">Policja (milicja w niektórych krajach):</string>
+    <string name="phone_dialog_title_4">Pogotowie:</string>
+    <string name="add_country_phone_book">+ Dodaj telefony alarmowe</string>
+    <string name="dialog_phone_btn">Dodaj do ekranu głównego</string>
+    <string name="change_country">Zmień kraj</string>
+    <string name="digest_title">Przydatne artykuły</string>
+    <string name="digest_phone_title">Numery alarmowe</string>
+
+    <string-array name="digest_desc_1">
+        <item>Kopie ważnych dokumentów w wodoodpornym opakowaniu. Zrób wcześniej kopie paszportów, praw jazdy, dokumentów potwierdzających Twoje prawa do nieruchomości, samochodu itp. Dokumenty muszą być ułożone w taki sposób, aby można je było łatwo uzyskać. Wskazane jest, aby wraz z dokumentami umieścić zdjęcia krewnych i przyjaciół.</item>
+        <item>Karty kredytowe i gotówka. Powinieneś zawsze mieć zapas pieniędzy.</item>
+        <item>Zduplikowane klucze do domu i samochodu.</item>
+        <item>Mapa obszaru i przekazana wszystkim członkom rodziny w celu uzyskania kontaktu w nagłych wypadkach i miejsca spotkania.</item>
+        <item>Urządzenia do komunikacji i dostępu do informacji. Możesz wziąć niedrogi telefon komórkowy z ładowarką.</item>
+        <item>Latarka, a najlepiej kilka, z zapasowymi bateriami i żarówkami. Kompas i zegarek, najlepiej wodoodporny.</item>
+        <item>Multitool to wielofunkcyjne narzędzie. Zwykle wygląda jak składane szczypce, w których rękojeściach ukryte są dodatkowe narzędzia (nóż, szydło, piła, śrubokręt, nożyczki i wiele innych).</item>
+        <item>Nóż i siekiera.</item>
+        <item>Sygnał oznacza (gwizdek, flara).</item>
+        <item> Worki na śmieci 120 l (około pięć sztuk). Mogą zastąpić markizę, jeśli zostanie przecięta.</item>
+        <item>Rolka szerokiej taśmy.</item>
+        <item>Opakowanie 12 prezerwatyw bez pudełka, bez lubrykantu i zapachu. Może się przydać w wielu sytuacjach.</item>
+        <item>Sznur syntetyczny o średnicy 4-5 mm i długości 20 m.</item>
+        <item>Notatnik i ołówek.</item>
+        <item>Nici i igły.</item>
+        <item>Apteczka pierwszej pomocy. Liczbę leków należy obliczyć, aby pomóc nie tylko sobie, ale także osobom wokół ciebie: bandaże, plastry, jodyna, wata, węgiel aktywowany, przeciwgorączkowe, leki na alergie, biegunki i infekcje jelitowe, krople do oczu, antybiotyki w proszku. </item>
+        <item>Leki, które przyjmujesz regularnie przez tydzień, w tym dawkowanie i sposób ich stosowania. Nazwiska i numery telefonów Twoich lekarzy. Śledź datę ważności leków (podczas pakowania wprowadź datę rewizji leków do kalendarza).</item>
+        <item>Ubrania. Dwa komplety bielizny. Dwie pary bawełnianych skarpet. Zapasowe spodnie, koszula lub kurtka, płaszcz przeciwdeszczowy, czapka z dzianiny, rękawiczki, szalik. Niezawodne i wygodne buty.</item>
+        <item>Mini namiot, śpiwór</item>
+        <item>Artykuły higieniczne: szczoteczka i pasta do zębów, mała kostka mydła, ręcznik (można wyprasować), papier toaletowy, kilka paczek suchych chusteczek, kilka zwykłych chusteczek do nosa, wilgotne chusteczki. Kobiety - środki higieny osobistej. Możesz wziąć maszynkę do golenia i zestaw do manicure.</item>
+        <item>Artykuły dla niemowląt</item>
+        <item>Naczynia: kociołek, termos, łyżka, kubek (najlepiej metalowy 0,5 l), składany kubek.</item>
+        <item>Dopasowane, lżejsze.</item>
+        <item>Przechowywanie żywności przez kilka dni. Wszystko, co można zjeść bez gotowania i co zajmuje niewiele miejsca, jest przechowywane przez długi czas. Woda pitna przez 1-2 dni, która musi być okresowo aktualizowana. Wysokokaloryczne słodycze, takie jak batoniki czekoladowe i garść twardych cukierków.</item>
+        <item>Z produktów: dwie puszki dobrego gulaszu, herbatniki, torebki na zupę, konserwy mięsne lub rybne, wszelkie płatki zbożowe, makarony, suche przetwory warzywne.</item>
+        <item>Wódka lub alkohol do nacierania.</item>
+        <item>Rodzinne pamiątki i pamiątki, ale tylko po najistotniejszych.</item>
+    </string-array>
+
+    <string-array name="digest_desc_2">
+        <item>Koc, śpiwór (dla każdego) lub karimata.</item>
+        <item>Apteczka pierwszej pomocy.</item>
+        <item>Woda w ilości 1-3 litrów na osobę.</item>
+        <item>Ładowarki do telefonów, w tym powerbanki i zasilacze samochodowe.</item>
+        <item>Jack, zestaw kluczy, gaśnica, aligatory do ładowania baterii, rękawice, trójkąt ostrzegawczy, kamizelka odblaskowa.</item>
+        <item>Paliwo w metalowym kanistrze.</item>
+        <item>Zapasowa opona.</item>
+        <item>Łopata turystyczna.</item>
+        <item>Zapas płynu niezamarzającego, smaru silnikowego, płynu hamulcowego.</item>
+        <item>Lina holownicza.</item>
+        <item>Kompresor samochodowy</item>
+    </string-array>
+
+    <string name="digest_desc_3">
+        1. Spróbuj uwolnić ręce i nogi.\n\n
+
+        2. Oceń swoje otoczenie.\n\n
+
+        3. Ostrożnie zdemontuj blokadę, nie dotykaj tego, na czym wszystko się opiera.\n\n
+
+        4. Jeśli nie masz pewności co do swoich umiejętności, wezwij pomoc.\n\n
+
+        5. Jeśli to możliwe, zadzwoń pod telefon, zapukaj w rury.\n\n
+
+        6. Udziel pierwszej pomocy, jeśli to możliwe.\n\n
+
+        7. Postaraj się okryć czymś, aby się ogrzać i poczekaj na pomoc.\n\n
+    </string>
+
+    <string-array name="country_names">
+        <item>Austria </item>
+        <item> Albania </item>
+        <item> Andora </item>
+        <item> Australia </item>
+        <item> Azerbejdżan </item>
+        <item> Argentyna </item>
+        <item> Armenia </item>
+        <item> Afganistan </item>
+        <item> Białoruś </item>
+        <item> Belgia </item>
+        <item> Bułgaria </item>
+        <item> Bośnia i Hercegowina </item>
+        <item> Brazylia </item>
+        <item> Wielka Brytania </item>
+        <item> Węgry </item>
+        <item> Wenezuela </item>
+        <item> Niemcy </item>
+        <item> Gruzja </item>
+        <item> Unia Europejska </item>
+        <item>Izrael </item>
+        <item> Iran </item>
+        <item>Kazachstan</item>
+        <item> „Kanada
+            USA" </item>
+        <item> Kirgistan </item>
+        <item> Chiny </item>
+        <item> KRLD </item>
+        <item> Korea </item>
+        <item> Łotwa </item>
+        <item> Litwa </item>
+        <item> Macedonia </item>
+        <item> Mołdawia </item>
+        <item> Mongolia </item>
+        <item> Polska </item>
+        <item> Naddniestrzańska Republika Mołdawska </item>
+        <item>Rosja</item>
+        <item> Rumunia </item>
+        <item> Serbia </item>
+        <item> Singapur </item>
+        <item> Słowacja </item>
+        <item> Słowenia </item>
+        <item> Tadżykistan </item>
+        <item> Turkmenistan </item>
+        <item> Turcja </item>
+        <item>Uzbekistan</item>
+        <item>Ukraina</item>
+        <item> Finlandia </item>
+        <item> Francja </item>
+        <item> Chorwacja </item>
+        <item> Czechy </item>
+        <item> Czarnogóra </item>
+        <item> Szwajcaria </item>
+        <item> Szwecja </item>
+        <item> Estonia </item>
+        <item> Japonia </item>
+    </string-array>
+</resources>

@@ -4,6 +4,17 @@
     <string name="digest_title_2">Що взяти з собою в автомобіль під час евакуації</string>
         <string name="digest_title_3">Що робити після обвалу будинку</string>
 
+    <string name="search">Пошук...</string>
+    <string name="phone_dialog_title_1">SOS (єдиний):</string>
+    <string name="phone_dialog_title_2">Пожежна служба:</string>
+    <string name="phone_dialog_title_3">Поліція (у деяких країнах міліція):</string>
+    <string name="phone_dialog_title_4">Швидка допомога:</string>
+    <string name="add_country_phone_book">+ Додати екстрені телефони</string>
+    <string name="dialog_phone_btn">Додати на головний екран</string>
+    <string name="change_country">Змінити країну</string>
+    <string name="digest_title">Корисні статті</string>
+    <string name="digest_phone_title">Екстренні номери</string>
+
     <string-array name="digest_desc_1">
             <item>Копії важливих документів в упаковці, що не промокає. Заздалегідь зробіть копії паспортів, автомобільних прав, документів, що доводять ваші права на нерухомість, машину тощо. Документи потрібно укласти так, щоб їх легко можна було дістати. Бажано покласти з документами фотографії рідних і близьких</item>
             <item>Кредитні картки та готівка. У вас завжди має бути запас грошей.</item>
@@ -63,5 +74,62 @@
 
          7. Спробуйте чимось сховатися, щоб не втрачати тепло і дочекатися допомоги.\n\n
      </string>
-    <string name="search">Пошук…</string>
+
+    <string-array name="country_names">
+        <item> Австрія </item>
+        <item>Албанія</item>
+        <item>Андорра</item>
+        <item> Австралія </item>
+        <item> Азербайджан </item>
+        <item>Аргентина </item>
+        <item>Вірменія</item>
+        <item> Афганістан </item>
+        <item> Білорусь </item>
+        <item> Бельгія </item>
+        <item> Болгарія </item>
+        <item>Боснія та Герцеговина</item>
+        <item>Бразилія</item>
+        <item> Великобританія </item>
+        <item>Угорщина</item>
+        <item>Венесуела</item>
+        <item>Німеччина</item>
+        <item> Грузія </item>
+        <item> Євросоюз </item>
+        <item>Ізраїль</item>
+        <item> Іран </item>
+        <item> Казахстан </item>
+        <item> "Канада
+ США" </item>
+        <item>Киргизія</item>
+        <item> КНР </item>
+        <item>КНДР</item>
+        <item> Корея </item>
+        <item> Латвія </item>
+        <item> Литва </item>
+        <item> Македонія </item>
+        <item> Молдова </item>
+        <item> Монголія </item>
+        <item>Польща</item>
+        <item> Придністровська Молдавська Республіка </item>
+        <item> Росія </item>
+        <item> Румунія </item>
+        <item>Сербія</item>
+        <item>Сінгапур</item>
+        <item> Словаччина </item>
+        <item> Словенія </item>
+        <item> Таджикистан </item>
+        <item> Туркменія </item>
+        <item> Туреччина </item>
+        <item>Узбекистан</item>
+        <item>Україна</item>
+        <item>Фінляндія</item>
+        <item> Франція </item>
+        <item> Хорватія </item>
+        <item> Чехія </item>
+        <item> Чорногорія </item>
+        <item>Швейцарія</item>
+        <item>Швеція</item>
+        <item>Естонія</item>
+        <item> Японія </item>
+    </string-array>
 </resources>
