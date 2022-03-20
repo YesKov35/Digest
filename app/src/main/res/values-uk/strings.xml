@@ -4,7 +4,7 @@
     <string name="digest_title_2">Що взяти з собою в автомобіль під час евакуації</string>
         <string name="digest_title_3">Що робити після обвалу будинку</string>
 
-    <string name="search">Пошук...</string>
+    <string name="search">Пошук…</string>
     <string name="phone_dialog_title_1">SOS (єдиний):</string>
     <string name="phone_dialog_title_2">Пожежна служба:</string>
     <string name="phone_dialog_title_3">Поліція (у деяких країнах міліція):</string>
@@ -132,4 +132,7 @@
         <item>Естонія</item>
         <item> Японія </item>
     </string-array>
+    <string name="start_message">Вітання! Ця програма призначена, щоб допомогти будь-кому знайти інформацію, необхідну у надзвичайній ситуації. Програма розроблена однією людиною і абсолютно безкоштовно. Через це збір інформації для цієї програми не буде здійснюватися так швидко, як хотілося б. Тому, якщо у вас є ідеї або ви хочете допомогти, я дуже вдячний.</string>
+    <string name="contact_me">Зв\'язати зі мною:</string>
+    <string name="contact_supprt">Підтримка:</string>
 </resources>

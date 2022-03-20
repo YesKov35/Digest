@@ -75,7 +75,6 @@
 
          7. Try to cover yourself with something so as not to lose heat and wait for help.\n\n
      </string>
-
     <string-array name="country_names">
         <item> Austria </item>
         <item> Albania </item>
@@ -133,6 +132,10 @@
         <item> Estonia </item>
         <item> Japan </item>
     </string-array>
+
+    <string name="start_message">Hey! This app is designed to help anyone find the information they need in an emergency. The application is developed by one person and is completely free. Because of this, the collection of information for this application will not be carried out as quickly as we would like. So if you have any ideas or would like to help, I would really appreciate it.</string>
+    <string name="contact_me">Contact me:</string>
+    <string name="contact_supprt">Support:</string>
 
     <string-array name="country_phones">
         <item>	112	#	122	#	133	#	144	</item>
@@ -196,4 +199,9 @@
         <item>	112	#	112	#	112	#	112	</item>
         <item>	-	#	119	#	110	#	119	</item>
     </string-array>
+
+    <string name="instagram_url" translatable="false"><u>raisehumaneness</u></string>
+    <string name="gmail_url" translatable="false"><u>raisehumaneness@gmail.com</u></string>
+    <string name="patreon_url" translatable="false">Patreon: <u>raisehumaneness</u></string>
+
 </resources>

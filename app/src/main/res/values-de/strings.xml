@@ -29,7 +29,7 @@
         <item>120-Liter-Müllsäcke (ungefähr fünf Stück). Sie können die Markise ersetzen, wenn sie geschnitten wird.</item>
         <item>Eine Rolle breites Klebeband.</item>
         <item>Packung mit 12 Kondomen ohne Schachtel, ohne Gleitmittel oder Duft. Es kann sich in vielen Situationen als nützlich erweisen.</item>
-        <item>Kunststoffschnur mit einem Durchmesser von 4-5 mm und einer Länge von 20 m.</item>
+        <item>Kunststoffschnur mit einem Durchmesser von 4–5 mm und einer Länge von 20 m.</item>
         <item>Notizblock und Bleistift.</item>
         <item>Faden und Nadeln.</item>
         <item>Erste-Hilfe-Kasten. Die Anzahl der Medikamente sollte so kalkuliert sein, dass sie nicht nur Ihnen selbst, sondern auch Ihren Mitmenschen helfen: Verbandsmaterial, Heftpflaster, Jod, Watte, Aktivkohle, Antipyretika, Mittel gegen Allergien, Durchfall und Darminfektionen, Augentropfen, Antibiotika in Pulverform. </item>
@@ -40,7 +40,7 @@
         <item>Babybedarf</item>
         <item>Geschirr: ein Kessel, eine Kanne, ein Löffel, ein Becher (vorzugsweise Metall 0,5 l), eine Klapptasse.</item>
         <item>Streichhölzer, Feuerzeug.</item>
-        <item>Aufbewahrung von Lebensmitteln für mehrere Tage. Alles, was ungekocht gegessen werden kann und wenig Platz beansprucht, wird lange aufbewahrt. Trinkwasser für 1-2 Tage, das regelmäßig aktualisiert werden muss. Kalorienreiche Süßigkeiten wie Schokoriegel und eine Handvoll Bonbons.</item>
+        <item>Aufbewahrung von Lebensmitteln für mehrere Tage. Alles, was ungekocht gegessen werden kann und wenig Platz beansprucht, wird lange aufbewahrt. Trinkwasser für 1–2 Tage, das regelmäßig aktualisiert werden muss. Kalorienreiche Süßigkeiten wie Schokoriegel und eine Handvoll Bonbons.</item>
         <item>Von den Produkten: zwei Dosen guter Eintopf, Kekse, Suppenbeutel, Fleisch- oder Fischkonserven, jegliches Müsli, Nudeln, trockene Gemüsezubereitungen.</item>
         <item>Wodka oder Franzbranntwein.</item>
         <item>Familienerbstücke und Erbstücke, aber nur nach dem Nötigsten.</item>
@@ -49,7 +49,7 @@
     <string-array name="digest_desc_2">
         <item>Decke, Schlafsack (für jeden) oder Matte.</item>
         <item>Erste-Hilfe-Kasten.</item>
-        <item>Wasser mit einer Rate von 1-3 Litern pro Person.</item>
+        <item>Wasser mit einer Rate von 1–3 Litern pro Person.</item>
         <item>Ladegeräte für Telefone, einschließlich Powerbanks und Autostrom.</item>
         <item>Wagenheber, Schraubenschlüsselsatz, Feuerlöscher, Alligatoren zum Batterieladen, Handschuhe, Warndreieck, Warnweste.</item>
         <item>Treibstoff in einem Metallkanister.</item>
@@ -133,5 +133,8 @@
         <item> Estland </item>
         <item> Japan </item>
     </string-array>
+    <string name="start_message">Hallo! Diese App soll jedem helfen, die Informationen zu finden, die er im Notfall benötigt. Die Anwendung wird von einer Person entwickelt und ist völlig kostenlos. Aus diesem Grund wird die Erfassung von Informationen für diese Anwendung nicht so schnell durchgeführt, wie wir es gerne hätten. Wenn Sie also Ideen haben oder helfen möchten, würde ich mich sehr darüber freuen.</string>
+    <string name="contact_me">Kontaktiere mich:</string>
+    <string name="contact_supprt">Unterstützung:</string>
 
 </resources>
