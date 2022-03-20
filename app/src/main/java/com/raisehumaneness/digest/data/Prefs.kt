@@ -17,4 +17,14 @@ class Prefs(context: Context) {
     fun getCountry(): Int {
         return sp.getInt(Constants.PREFS_COUNTRY, -1)
     }
+
+    fun setHelp(help: Boolean) {
+        val editor = sp.edit()
+        editor.putBoolean(Constants.PREFS_HELP, help)
+        editor.apply()
+    }
+
+    fun getHelp(): Boolean {
+        return sp.getBoolean(Constants.PREFS_HELP, true)
+    }
 }

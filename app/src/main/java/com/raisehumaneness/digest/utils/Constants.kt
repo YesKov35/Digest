@@ -10,4 +10,5 @@ object Constants {
 
     //Prefs
     const val PREFS_COUNTRY = "prefs_country"
+    const val PREFS_HELP = "prefs_help"
 }

@@ -19,6 +19,7 @@ abstract class BaseFragment<B : ViewBinding> : Fragment() {
         savedInstanceState: Bundle?,
     ): View {
         _viewBinding = initBinding(inflater, container)
+
         return binding.root
     }
 

@@ -18,16 +18,26 @@ import com.raisehumaneness.digest.databinding.ActivityMainBinding
      private lateinit var binding: ActivityMainBinding
      private lateinit var navController: NavController
 
+     private val sharedPrefs get() = checkNotNull(Application.prefs)
+
      override fun onCreate(savedInstanceState: Bundle?) {
          super.onCreate(savedInstanceState)
          binding = ActivityMainBinding.inflate(layoutInflater)
          setContentView(binding.root)
 
-         initContacts()
+         setListeners()
 
          val navHostFragment =
              supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
          navController = navHostFragment.navController
+
+         navController.addOnDestinationChangedListener { _, destination, _ ->
+             if (destination.id == R.id.mainFragment) {
+                 binding.back.visibility = View.GONE
+             } else {
+                 binding.back.visibility = View.VISIBLE
+             }
+         }
 
          CountryRepository.instance.countryList = getData()
      }
@@ -47,10 +57,23 @@ import com.raisehumaneness.digest.databinding.ActivityMainBinding
          return dataResult
      }
 
-     private fun initContacts(){
+     private fun setListeners(){
          binding.run {
-             contactClose.setOnClickListener { contactView.visibility = View.GONE }
+
+             if(sharedPrefs.getHelp())
+                 contactView.visibility = View.VISIBLE
+
+             contactClose.setOnClickListener {
+                 contactView.visibility = View.GONE
+
+                 if(sharedPrefs.getHelp())
+                     sharedPrefs.setHelp(false)
+             }
              info.setOnClickListener { contactView.visibility = View.VISIBLE }
+
+             back.setOnClickListener {
+                 navController.popBackStack()
+             }
 
              contact.contactInstUrl.setOnClickListener { openInst() }
              contact.contactInst.setOnClickListener { openInst() }
