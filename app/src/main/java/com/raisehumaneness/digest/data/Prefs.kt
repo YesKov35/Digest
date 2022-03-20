@@ -27,4 +27,14 @@ class Prefs(context: Context) {
     fun getHelp(): Boolean {
         return sp.getBoolean(Constants.PREFS_HELP, true)
     }
+
+    fun setDigestCheckList(listName: String, check: String) {
+        val editor = sp.edit()
+        editor.putString("${Constants.PREFS_CHECK_LIST}_$listName", check)
+        editor.apply()
+    }
+
+    fun getDigestCheckList(listName: String): String? {
+        return sp.getString("${Constants.PREFS_CHECK_LIST}_$listName", "")
+    }
 }

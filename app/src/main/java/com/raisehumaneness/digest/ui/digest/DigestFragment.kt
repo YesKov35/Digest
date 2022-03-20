@@ -5,12 +5,15 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.raisehumaneness.digest.adapters.DigestAdapter
+import com.raisehumaneness.digest.data.models.DigestCheckModel
 import com.raisehumaneness.digest.databinding.FragmentDigestBinding
 import com.raisehumaneness.digest.ui.base.BaseFragment
+import java.lang.StringBuilder
 
 class DigestFragment : BaseFragment<FragmentDigestBinding>(){
 
     private lateinit var digestAdapter: DigestAdapter
+    private var checkList = ArrayList<String>()
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -36,6 +39,10 @@ class DigestFragment : BaseFragment<FragmentDigestBinding>(){
                 listener = {
                 }
 
+                checkListener = {
+                    saveData(it)
+                }
+
                 val digestId = arguments?.getInt("digest_id")
 
                 if(digestId != null)
@@ -46,5 +53,36 @@ class DigestFragment : BaseFragment<FragmentDigestBinding>(){
         }
     }
 
-    private fun getData(id: Int): List<String> = resources.getStringArray(id).toList()
+    private fun saveData(digest: DigestCheckModel){
+        checkList[digest.position] = digest.check.toString()
+
+        val checkB = StringBuilder()
+        for(check in checkList)
+            checkB.append("${check}_")
+
+        sharedPrefs.setDigestCheckList(arguments?.getInt("digest_id").toString(), checkB.toString())
+    }
+
+    private fun getData(id: Int): List<DigestCheckModel> {
+        val digestList = emptyList<DigestCheckModel>().toMutableList()
+        val list = resources.getStringArray(id).toList()
+
+
+        val checkB = StringBuilder()
+        if(sharedPrefs.getDigestCheckList(id.toString()).isNullOrEmpty()){
+            for(i in list.indices){
+                checkB.append("0_")
+            }
+
+            sharedPrefs.setDigestCheckList(id.toString(), checkB.toString())
+        }
+
+        checkList = ArrayList(sharedPrefs.getDigestCheckList(id.toString())?.split("_")!!)
+
+        for(i in list.indices){
+            digestList += DigestCheckModel(list[i], checkList[i].toBoolean(), i)
+        }
+
+        return digestList
+    }
 }

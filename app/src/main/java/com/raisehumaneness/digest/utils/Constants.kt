@@ -11,4 +11,5 @@ object Constants {
     //Prefs
     const val PREFS_COUNTRY = "prefs_country"
     const val PREFS_HELP = "prefs_help"
+    const val PREFS_CHECK_LIST = "prefs_check_list"
 }

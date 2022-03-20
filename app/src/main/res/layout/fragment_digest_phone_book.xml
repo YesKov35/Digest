@@ -31,6 +31,7 @@
                 android:layout_height="wrap_content"
                 android:background="@null"
                 android:hint="@string/search"
+                android:textColorHint="@color/black"
                 android:padding="14dp"
                 android:imeOptions="actionSearch"/>
         </LinearLayout>
