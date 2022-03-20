@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="digest_title_1">Cosa dovrebbe essere nel caso di emergenza</string>
+    <string name="digest_title_2">Cosa portare nel tuo veicolo durante un\'evacuazione</string>
+    <string name="digest_title_3">Cosa fare dopo il crollo di una casa</string>
+
+    <string name="search">Ricerca in corso…</string>
+    <string name="phone_dialog_title_1">SOS (singolo):</string>
+    <string name="phone_dialog_title_2">Vigili del fuoco:</string>
+    <string name="phone_dialog_title_3">Polizia (milizia in alcuni paesi):</string>
+    <string name="phone_dialog_title_4">Ambulanza:</string>
+    <string name="add_country_phone_book">+ Aggiungi telefoni di emergenza</string>
+    <string name="dialog_phone_btn">Aggiungi alla schermata principale</string>
+    <string name="change_country">Cambia paese</string>
+    <string name="digest_title">Articoli utili</string>
+    <string name="digest_phone_title">Numeri di emergenza</string>
+
+    <string-array name="digest_desc_1">
+        <item>Copie di documenti importanti in imballaggi impermeabili. Fare in anticipo copie di passaporti, patenti di guida, documenti comprovanti i propri diritti su immobili, auto, ecc. I documenti devono essere disposti in modo tale da poter essere facilmente ottenuti. Si consiglia di mettere foto di parenti e amici con documenti.</item>
+        <item>Carte di credito e contanti. Dovresti sempre avere una scorta di denaro.</item>
+        <item>Duplica le chiavi di casa e della macchina.</item>
+        <item>Mappa dell\'area e comunicata a tutti i familiari per il contatto di emergenza e il punto di incontro.</item>
+        <item>Dispositivi di comunicazione e accesso alle informazioni. Puoi prendere un telefono cellulare economico con un caricabatterie.</item>
+        <item>Una torcia, o meglio un paio, con batterie e lampadine di riserva. Bussola e orologio, preferibilmente impermeabile.</item>
+        <item>Multitool è uno strumento multifunzionale. Solitamente si presenta come una pinza pieghevole, nei cui manici si nascondono strumenti aggiuntivi (coltello, punteruolo, sega, cacciavite, forbici e molto altro).</item>
+        <item>Coltello e accetta.</item>
+        <item>Segnale significa (fischio, bagliore).</item>
+        <item>Sacchi della spazzatura da 120 litri (circa cinque pezzi). Possono sostituire la tenda da sole se tagliata.</item>
+        <item>Un rotolo di nastro adesivo largo.</item>
+        <item>Confezione da 12 preservativi senza scatola, senza lubrificante o profumo. Può tornare utile in molte situazioni.</item>
+        <item>Corda sintetica con un diametro di 4–5 mm e una lunghezza di 20 m.</item>
+        <item>Blocco note e matita.</item>
+        <item>Filo e aghi.</item>
+        <item>Kit di pronto soccorso. Il numero dei medicinali va calcolato per aiutare non solo te stesso, ma anche chi ti circonda: bende, cerotti adesivi, iodio, ovatta, carbone attivo, antipiretici, farmaci contro allergie, diarrea e infezioni intestinali, colliri, antibiotici in polvere. </item>
+        <item>Farmaci che assumi regolarmente per una settimana, compreso il dosaggio e come usarlo. Nomi e numeri di telefono dei tuoi medici. Tieni traccia della data di scadenza dei medicinali (al momento dell\'imballaggio, inserisci nel calendario la data di revisione dei medicinali).</item>
+        <item>Vestiti. Due set di biancheria intima. Due paia di calzini di cotone. Pantaloni di ricambio, camicia o giacca, impermeabile, berretto in maglia, guanti, sciarpa. Scarpe affidabili e comode.</item>
+        <item>Mini tenda, sacco a pelo</item>
+        <item>Forniture per l\'igiene: spazzolino da denti e pasta, una piccola saponetta, un asciugamano (può essere stirato), carta igienica, diverse confezioni di fazzoletti asciutti, diversi fazzoletti regolari, salviettine umidificate. Donne - prodotti per l\'igiene personale. Puoi prendere un rasoio e un set da manicure.</item>
+        <item>Forniture per bambini</item>
+        <item>Piatti: un calderone, una fiaschetta, un cucchiaio, una tazza (preferibilmente di metallo 0,5 l), una tazza pieghevole.</item>
+        <item>Fiammiferi, più leggeri.</item>
+        <item>Conservazione del cibo per diversi giorni. Tutto ciò che può essere consumato senza cottura e che occupa poco spazio viene conservato a lungo. Acqua potabile per 1-2 giorni, che deve essere aggiornata periodicamente. Dolci ipercalorici, come barrette di cioccolato e una manciata di caramelle dure.</item>
+        <item>Dai prodotti: due lattine di buon spezzatino, biscotti, sacchi da zuppa, conserve di carne o pesce, eventuali cereali, pasta, verdure secche pronte da cuocere.</item>
+        <item>Vodka o alcol denaturato.</item>
+        <item>Cimeli di famiglia e cimeli di famiglia, ma solo dopo l\'essenziale.</item>
+    </string-array>
+
+    <string-array name="digest_desc_2">
+        <item>Coperta, sacco a pelo (per ciascuno) o materassino.</item>
+        <item>Kit di pronto soccorso.</item>
+        <item>Acqua al tasso di 1-3 litri a persona.</item>
+        <item>Caricatori per telefoni, inclusi power bank e alimentazione per auto.</item>
+        <item>Jack, set di chiavi, estintore, alligatori per la ricarica della batteria, guanti, triangolo di emergenza, giubbotto catarifrangente.</item>
+        <item>Carburante in una tanica di metallo.</item>
+        <item>Ruota di scorta.</item>
+        <item>Pala turistica.</item>
+        <item>Scorta di antigelo, lubrificante motore, liquido freni.</item>
+        <item>Cavo di traino.</item>
+        <item>Compressore per auto</item>
+    </string-array>
+
+    <string name="digest_desc_3">
+        1. Cerca di liberare braccia e gambe.\n\n
+
+        2. Valuta l\'ambiente circostante.\n\n
+
+        3. Smontare con attenzione il blocco, non toccare ciò su cui poggia tutto.\n\n
+
+        4. Se non sei sicuro delle tue capacità, chiama aiuto.\n\n
+
+        5. Se possibile, chiama il telefono, bussa ai tubi.\n\n
+
+        6. Fornisci il primo soccorso, se possibile.\n\n
+
+        7. Prova a coprirti con qualcosa per riscaldarti e aspetta aiuto.\n\n
+    </string>
+
+    <string-array name="country_names">
+        <item> Austria </item>
+        <item> Albania </item>
+        <item> Andorra </item>
+        <item> Australia </item>
+        <item> Azerbaigian </item>
+        <item> Argentina </item>
+        <item> Armenia </item>
+        <item> Afghanistan </item>
+        <item> Bielorussia </item>
+        <item> Belgio </item>
+        <item> Bulgaria </item>
+        <item> Bosnia ed Erzegovina </item>
+        <item> Brasile </item>
+        <item> Regno Unito </item>
+        <item> Ungheria </item>
+        <item> Venezuela </item>
+        <item> Germania </item>
+        <item> Georgia </item>
+        <item> Unione Europea </item>
+        <item> Israele </item>
+        <item> Iran </item>
+        <item>Kazakistan</item>
+        <item> "Canada
+ USA" </item>
+        <item> Kirghizistan </item>
+        <item> Cina </item>
+        <item> RPDC </item>
+        <item> Corea </item>
+        <item> Lettonia </item>
+        <item> Lituania </item>
+        <item> Macedonia </item>
+        <item> Moldavia </item>
+        <item> Mongolia </item>
+        <item> Polonia </item>
+        <item> Repubblica Moldava Pridnestroviana </item>
+        <item>Russia</item>
+        <item> Romania </item>
+        <item> Serbia </item>
+        <item> Singapore </item>
+        <item> Slovacchia </item>
+        <item> Slovenia </item>
+        <item> Tagikistan </item>
+        <item> Turkmenistan </item>
+        <item> Turchia </item>
+        <item>Uzbekistan</item>
+        <item>Ucraina</item>
+        <item> Finlandia </item>
+        <item> Francia </item>
+        <item> Croazia </item>
+        <item> Repubblica Ceca </item>
+        <item> Montenegro </item>
+        <item> Svizzera </item>
+        <item> Svezia </item>
+        <item> Estonia </item>
+        <item> Giappone </item>
+    </string-array>
+
+    <string name="start_message">Ciao! Questa app è progettata per aiutare chiunque a trovare le informazioni di cui ha bisogno in caso di emergenza. L\'applicazione è sviluppata da una sola persona ed è completamente gratuita. Per questo motivo, la raccolta di informazioni per questa applicazione non verrà eseguita rapidamente come vorremmo. Quindi, se hai qualche idea o vorresti aiutare, te ne sarei davvero grato.</string>
+    <string name="contact_me">Contattami:</string>
+    <string name="contact_supprt">Supporto:</string>
+</resources>
